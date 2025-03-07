@@ -1,0 +1,19 @@
+{
+  "name": "playground",
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "farm start",
+    "start": "farm start",
+    "build": "farm build",
+    "preview": "farm preview",
+    "clean": "farm clean"
+  },
+  "dependencies": {
+    "@farmfe/module-federation": "workspace:*"
+  },
+  "devDependencies": {
+    "@farmfe/cli": "^2.0.0-nightly-20241022101407",
+    "@farmfe/core": "^2.0.0-nightly-20241029121500"
+  }
+}
